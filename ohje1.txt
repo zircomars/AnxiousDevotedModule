@@ -21,4 +21,4 @@ descriptions ; vapaa muotoinen
 
 sitten (stage and commit all changes)
 
-sitten päivitä github sivusto niin sieltä tulee se muutos
+sitten päivitä github sivusto niin sieltä tulee se muutos ja tänne sivustoon tulee toi (1 push commit), kun joka kerta tapahtuu jotakin muutosta niin pitää aina puskea ja päivittää github:lle
