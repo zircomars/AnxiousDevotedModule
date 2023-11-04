@@ -1,0 +1,15 @@
+$git push --set-upstream origin main
+
+
+~/AnxiousDevotedModule$ git push --set-upstream origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.46 KiB | 373.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/zircomars/AnxiousDevotedModule
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+
