@@ -1,0 +1,52 @@
+kloonaus tapahtuu
+
+git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+siinä menee pieni hetki;
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `Spoon-Knife`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+
+
+sitten tee tarvittavat muutokset ja yms (poistamiset, siirrot, uusien tiedostojen lisääminen ja muita päivityksiä)
+
+
+seuraavaksi kuinka pusketaan takaisin tehdyt muutokset? ehkä saattaa vaatia aikaa, että se tajuu ja viee niitä tehtyi muutoksia takaisin github projektiin
+
+suoritetaan, että lisätään kaikki (siis kaikki tehdyt päivitykset)
+$git add --all
+
+TAI
+huomaa tuossa add on jälkeen väli ja sitten piste
+$git add .
+
+tarvittaessa tarkistaa tehdyt tai suoritettut tapahtuneen muutokset
+$git status
+
+muita chekkausta
+$ git branch 
+tämä tarkistaa onko kyse "master" vai "main"
+
+vahvistettaan (authentication and authorization)
+
+~/BoringRichProcedure$ git config --global user.name "tanttax"
+~/BoringRichProcedure$ git config --global user.email "zhao-96@hotmail.com"
+~/BoringRichProcedure$ git commit -m "add new file and some fixes"
+[master (root-commit) e7c9988] add new file and some fixes
+ 5 files changed, 54 insertions(+)
+ create mode 100644 .replit
+ create mode 160000 kalilinux-harjoitus
+ create mode 100644 main.sh
+ create mode 100644 ohje.txt
+ create mode 100644 replit.nix
+~/BoringRichProcedure$ git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+~/BoringRichProcedure$ 
+
+
+tässä jotakin mättää??
+
