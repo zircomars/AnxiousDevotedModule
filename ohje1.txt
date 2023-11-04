@@ -13,3 +13,10 @@ To https://github.com/zircomars/AnxiousDevotedModule
 Branch 'main' set up to track remote branch 'main' from 'origin'.
 
 
+avaa tools (git) sitten (main) tämän repl.it softan tunnari
+commit
+
+message; kirjoita jotakin / päivityksen otiskko
+descriptions ; vapaa muotoinen
+
+sitten (stage and commit all changes)
