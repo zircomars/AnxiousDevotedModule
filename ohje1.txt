@@ -20,3 +20,5 @@ message; kirjoita jotakin / päivityksen otiskko
 descriptions ; vapaa muotoinen
 
 sitten (stage and commit all changes)
+
+sitten päivitä github sivusto niin sieltä tulee se muutos
